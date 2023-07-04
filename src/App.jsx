@@ -1,11 +1,19 @@
-import './App.css'
+import './App.css';
+import { Header } from './components/Header';
 
 function App() {
   return (
     <>
-    <h1 className='underline'>Hello Vite</h1>
+      <Header />
+      <main>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+      </main>
+      <footer></footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
