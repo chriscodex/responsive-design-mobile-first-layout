@@ -1,11 +1,21 @@
-import './styles.css'
+import './styles.css';
+import logo from '../../assets/img/logo.svg';
 
 function Header() {
   return (
     <header>
-      <h1 className='custom-style'>Header</h1>
+      <img src={logo} alt="logo" />
+      <div className='header__title-container'>
+        <h1 className='text-just-white'>La próxima revolución en el intercambio de criptomonedas.</h1>
+        <p className='text-soft-orange'>
+          Batabit te ayuda a navegar entre los diferentes precios y tendencias.
+        </p>
+        <a href="">
+          Conoce Nuestros Planes <span></span>
+        </a>
+      </div>
     </header>
-  )
+  );
 }
 
-export { Header }
+export { Header };
