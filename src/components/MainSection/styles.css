@@ -9,4 +9,10 @@
     min-width: 320px;
     max-width: 900px;
   }
+  .main-exchange-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
