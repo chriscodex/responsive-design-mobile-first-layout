@@ -13,6 +13,7 @@ export default {
       'warm-black': '#282623',
       'black': '#201e1c',
       'grey': '#bababa',
+      'warm-grey': '#757575',
       'off-white': '#faf8f7',
       'just-white': '#ffffff',
     },
