@@ -15,4 +15,11 @@
     align-items: center;
     text-align: center;
   }
+  .main-exchange-container__backgroundImg {
+    width: 195px;
+    height: 195px;
+    margin-top: 59px;
+    margin-bottom: 40px;
+    background-image: url(../../assets/img/Bitcoin.svg);
+  }
 }
