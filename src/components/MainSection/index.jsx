@@ -3,9 +3,12 @@ import './styles.css'
 function MainSection() {
   return (
     <main>
-      <section className='main-exchange-cotainer'>
+      <section className='main-exchange-container'>
         <div className='main-exchange-container__backgroundImg'></div>
-        <div className='main-exchange-container__title'></div>
+        <div className='main-exchange-container__title'>
+          <h2>Visibilizamos todas las tasas de cambio.</h2>
+          <p>Traemos toda la información de las tasas de cambio y las monedas más importantes del mundo</p>
+        </div>
         <section className='main-exchange-container__tables'>
           <div>
 
