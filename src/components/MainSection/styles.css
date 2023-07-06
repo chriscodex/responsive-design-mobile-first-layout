@@ -22,4 +22,8 @@
     margin-bottom: 40px;
     background-image: url(../../assets/img/Bitcoin.svg);
   }
+  .main-exchange-container__title {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
