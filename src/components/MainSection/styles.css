@@ -7,7 +7,6 @@
     width: 100%;
     height: auto;
     min-width: 320px;
-    max-width: 900px;
   }
   .main-exchange-container {
     display: flex;
@@ -21,15 +20,18 @@
     margin-top: 59px;
     margin-bottom: 40px;
     background-image: url(../../assets/img/Bitcoin.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .main-exchange-container__title {
     width: 90%;
     margin: 0 auto;
   }
   .main-exchange-container__title h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
-    line-height: 26px;
+    line-height: 2.6rem;
     margin-bottom: 24px;
   }
   .main-exchange-container__title p {
