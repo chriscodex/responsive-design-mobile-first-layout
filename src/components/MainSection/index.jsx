@@ -2,12 +2,12 @@ import './styles.css'
 
 function MainSection() {
   return (
-    <main>
+    <main className='bg-off-white'>
       <section className='main-exchange-container'>
         <div className='main-exchange-container__backgroundImg'></div>
-        <div className='main-exchange-container__title'>
+        <div className='main-exchange-container__title text-warm-black'>
           <h2>Visibilizamos todas las tasas de cambio.</h2>
-          <p>Traemos toda la información de las tasas de cambio y las monedas más importantes del mundo</p>
+          <p className='text-warm-grey'>Traemos toda la información de las tasas de cambio y las monedas más importantes del mundo</p>
         </div>
         <section className='main-exchange-container__tables'>
           <div>
