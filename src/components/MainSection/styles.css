@@ -39,4 +39,122 @@
     font-weight: 500;
     line-height: 1.8rem;
   }
+
+  .main-exchange-container__tables {
+    margin-top: 40px;
+    width: 65%;
+    align-self: center;
+    min-width: 110px;
+    max-width: 520px;
+    text-align: left;
+  }
+
+  .tableContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tableContainer h3 {
+    align-self: self-start;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: #ff9536;
+    margin-left: 12px;
+    margin-bottom: 12px;
+  }
+
+  .tableContainer__table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    grid-gap: 1.5px;
+  }
+
+  .tableContainer__table div {
+    padding: 10px 12px;
+    display: flex;
+    background-color: white;
+  }
+
+  .tableContainer__table div:nth-child(1) {
+    border-top-left-radius: 4px;
+  }
+  
+  .tableContainer__table div:nth-child(2) {
+    border-top-right-radius: 4px;
+  }
+  
+  .tableContainer__table div:nth-child(7) {
+    border-bottom-left-radius: 4px;
+  }
+  
+  .tableContainer__table div:nth-child(8) {
+    border-bottom-right-radius: 4px;
+  }
+  
+  .tableContainer__table div:nth-child(2n) {
+    justify-content: center;
+  }
+
+  .tableContainer__table div h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: #b5b0ac;
+  }
+  
+  .tableContainer__table div h5 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #757575;
+  }
+
+  .tableContainer__table div h5 span {
+    display: inline-block;
+    margin-left: 10.5px;
+    width: 12px;
+    height: 8px;
+    background-image: url('../../assets/icons/trending-down.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F5450D;
+  }
+
+  .tableContainer__table div:nth-child(4) h5 span {
+    display: inline-block;
+    margin-left: 10.5px;
+    width: 12px;
+    height: 8px;
+    background-image: url('../../assets/icons/trending-up.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F5450D;
+  }
+
+  .tableContainer__updateDate {
+    background-color: #ffe9d5;
+    color: var(#282623);
+    padding: 8px;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 8px;
+    width: 90%;
+    align-self: center;
+  }
+  .tableContainer__updateDate p {
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.45em;
+  }
+  
+  .tableContainer__updateDate span {
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.45em;
+  }
 }
