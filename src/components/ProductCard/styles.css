@@ -1,6 +1,7 @@
 .card-container {
-  width: 288px;
-  height: 152px;
+  width: 90%;
+  min-width: 288px;
+  min-height: 152px;
   border-radius: 4px;
   background-color: #282623;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.16);
@@ -18,6 +19,7 @@
 }
 
 .card-container h3 {
+  min-width: 288px;
   color: white;
   font-size: 1.8rem;
   font-weight: bold;
@@ -27,7 +29,7 @@
 }
 
 .card-container p {
-  width: 252px;
+  min-width: 252px;
   color: #808080;
   font-size: 1.4rem;
   font-weight: 500;
