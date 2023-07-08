@@ -1,0 +1,19 @@
+.plan-card-recomendado__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.plan-card-recomendado__suggest {
+  position: absolute;
+  top: -16px;
+  left: calc(50% - 50px);
+  padding: 8px;
+  background-color: #F7931A;
+  color: white;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
