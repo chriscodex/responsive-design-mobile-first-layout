@@ -1,5 +1,6 @@
 import './styles.css';
 import { Products } from '../Products';
+import { Plans } from '../Plans';
 
 function MainSection() {
   return (
@@ -58,9 +59,8 @@ function MainSection() {
           </div>
         </section>
       </section>
-      <section>
-        <Products />
-      </section>
+      <Products />
+      <Plans />
     </main>
   );
 }
