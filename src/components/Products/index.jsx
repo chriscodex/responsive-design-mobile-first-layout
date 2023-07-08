@@ -6,6 +6,32 @@ import dollar from '../../assets/icons/dollar-sign.svg';
 import checkCircle from '../../assets/icons/check-circle.svg';
 
 function Products() {
+  const cardContent = [
+    {
+      title: 'Tiempo real',
+      description:
+        'Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.',
+      image: clockImg,
+    },
+    {
+      title: 'No hay tasas escondidas',
+      description:
+        'Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.',
+      image: eye,
+    },
+    {
+      title: 'Compara monedas',
+      description:
+        'Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.',
+      image: dollar,
+    },
+    {
+      title: 'Información confiable',
+      description:
+        'Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.',
+      image: checkCircle,
+    },
+  ];
 
   return (
     <section className="products-container">
