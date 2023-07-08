@@ -14,6 +14,11 @@ function Products() {
         <p>Confiable y diseñado para su uso diario.</p>
       </div>
       <div className="products-container__cards-container">
+        {
+          cardContent.map((card, index) => (
+            <ProductCard key={index} image={cardContent[index].image} title={cardContent[index].title} description={cardContent[index].description}/>
+          ))
+        }
       </div>
       <div className='products-container__base'></div>
     </section>
