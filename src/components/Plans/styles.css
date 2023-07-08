@@ -34,3 +34,8 @@
   line-height: 1.8rem;
   color: #757575;
 }
+
+.plans-container__slide {
+  display: flex;
+  height: 350px;
+}
