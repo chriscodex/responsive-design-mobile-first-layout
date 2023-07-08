@@ -44,9 +44,9 @@ function MainSection() {
           </div>
         </section>
       </section>
-      <section><p>s2</p></section>
+      {/* <section><p>s2</p></section>
       <section><p>s3</p></section>
-      <section><p>s4</p></section>
+      <section><p>s4</p></section> */}
     </main>
   )
 }
