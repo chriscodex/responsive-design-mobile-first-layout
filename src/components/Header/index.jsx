@@ -10,7 +10,7 @@ function Header() {
         <p className='text-soft-orange'>
           Batabit te ayuda a navegar entre los diferentes precios y tendencias.
         </p>
-        <a href="" className='header__button bg-off-white text-black'>
+        <a href="#plans-section" className='header__button bg-off-white text-black'>
           Conoce Nuestros Planes <span></span>
         </a>
       </div>
