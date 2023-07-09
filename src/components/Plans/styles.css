@@ -37,5 +37,18 @@
 
 .plans-container__slide {
   display: flex;
-  height: 350px;
+  height: 340px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+@media (width > 768px) {
+  .plans-container__slide {
+    justify-content: center;
+  }
+}
+
+.plans-container__plan-card {
+  margin-top: 16px;
+  scroll-snap-align: center;
 }

@@ -22,27 +22,31 @@ function Plans() {
   ];
 
   return (
-    <section className="plans-container">
+    <section id='plans-section' className="plans-container">
       <div className="plans-container__title">
         <h2>Escoge el plan que mejor se ajuste a ti.</h2>
         <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
       </div>
       <section className="plans-container__slide">
-        <PlanCard
-          title={planContent[0].title}
-          price={planContent[0].price}
-          description={planContent[0].description}
-        />
+        <div className='plans-container__plan-card'>
+          <PlanCard
+            title={planContent[0].title}
+            price={planContent[0].price}
+            description={planContent[0].description}
+          />
+        </div>
         <PlanCardRecomendado
           title={planContent[1].title}
           price={planContent[1].price}
           description={planContent[1].description}
         />
-        <PlanCard
-          title={planContent[2].title}
-          price={planContent[2].price}
-          description={planContent[2].description}
-        />
+        <div className='plans-container__plan-card'>
+          <PlanCard
+            title={planContent[2].title}
+            price={planContent[2].price}
+            description={planContent[2].description}
+          />
+        </div>
       </section>
     </section>
   );

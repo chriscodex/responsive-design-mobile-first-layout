@@ -1,9 +1,11 @@
 .plan-card-recomendado__container {
   position: relative;
+  scroll-snap-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 16px;
 }
 
 .plan-card-recomendado__suggest {
