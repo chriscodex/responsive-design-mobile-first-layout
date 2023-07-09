@@ -10,7 +10,7 @@ function Footer() {
         <a href="#">Hackernews</a>
       </div>
       <div className='footer-container__logo'>
-        <img src={logoFooter} alt="batatabit-logo" />
+        <img loading='lazy' src={logoFooter} alt="batatabit-logo" />
       </div>
     </footer>
   );
