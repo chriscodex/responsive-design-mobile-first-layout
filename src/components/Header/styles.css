@@ -13,6 +13,11 @@
     align-items: center;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
   }
+  @media (min-width: 768px) {
+    header {
+      padding-top: 50px;
+    }
+  }
 
   header img {
     width: 128px;
