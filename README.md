@@ -43,7 +43,7 @@ $ npm run dev
 ---
 
 ## Implementación 📦
-El proyecto fue desplegado usando la plataforma de Netlify y se encuentra en este [link](https://roaring-selkie-bf77c1.netlify.app/).
+El proyecto fue desplegado usando la plataforma de Netlify y se encuentra en este [link](https://earnest-kheer-77a7c2.netlify.app/).
 
 ---
 
